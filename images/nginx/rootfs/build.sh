@@ -27,7 +27,7 @@ export NGINX_SUBSTITUTIONS=bc58cb11844bc42735bbaef7085ea86ace46d05b
 export NGINX_OPENTRACING_VERSION=0.9.0
 export OPENTRACING_CPP_VERSION=1.5.1
 export ZIPKIN_CPP_VERSION=0.5.2
-export JAEGER_VERSION=cdfaf5bb25ff5f8ec179fd548e6c7c2ade9a6a09
+export JAEGER_VERSION=fa16a331137a68ff7dd8f7600bbca2ccd7ddef3f
 export MSGPACK_VERSION=3.1.1
 export DATADOG_CPP_VERSION=1.0.1
 export MODSECURITY_VERSION=d7101e13685efd7e7c9f808871b202656a969f4b
@@ -145,8 +145,8 @@ get_src 30affaf0f3a84193f7127cc0135da91773ce45d902414082273dae78914f73df \
 get_src 5c8d25e68fb852f61489b669aebb7bd8ca8c88ebb5e5f969212fcceff3ee2d0b \
         "https://github.com/SpiderLabs/ModSecurity-nginx/archive/$MODSECURITY_VERSION.tar.gz"
 
-get_src 3183450d897baa9309347c8617edc0c97c5b29ffc32bd2d12f498edf2dcbeffa \
-        "https://github.com/jaegertracing/jaeger-client-cpp/archive/$JAEGER_VERSION.tar.gz"
+get_src 1b0e3349e920f3cf1aa7cf49c3988c4bbd1a64594f0c92585eb5af293e35d79d \
+        "https://github.com/goller/jaeger-client-cpp/archive/$JAEGER_VERSION.tar.gz"
 
 get_src bda49f996a73d2c6080ff0523e7b535917cd28c8a79c3a5da54fc29332d61d1e \
         "https://github.com/msgpack/msgpack-c/archive/cpp-$MSGPACK_VERSION.tar.gz"
